@@ -1,0 +1,38 @@
+Copyright (c) 1999 Greg Bartels. All rights reserved.
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+This is an Alpha release of the Hardware::Simulator module.
+
+installation instructions:
+==========================
+download the tar.gz file somewhere,
+unzip the file
+untar the file
+
+perl Makefile.PL
+make
+make test
+make install
+
+brief description
+==================
+
+Hardware::Simulator implements a hardware descriptor language in perl.
+It is similar in functionality to VHDL or Verilog.
+Hardware::Simulator allows simulation of parallel hardware components
+in time. It can be used to model high-level or 
+system-level architectures in behavioural language.
+Currently, it is not well suited for gate level
+simulation. This will improve as PHDL moves from
+Alpha release to Beta, and finally to version 1.0
+
+Any requests for new features will be added and any 
+bugs reported will be fixed and the module will be 
+re-released as soon as time permits. 
+
+you can send email directly to me at
+gbartels@xli.com
+
+Thanks,
+Greg Bartels
